@@ -1,0 +1,26 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    padding: 1rem;
+    display: flex;
+}
+nav a {
+    color:dodgerblue;
+    padding: 1rem;
+}
+
+.selected{
+    border: solid 1px dodgerblue
+}
+
+#deatil > div{
+    height:100vh;
+}
+
+@media (max-width:500px){
+    nav{
+        flex-direction: column;
+    }
+}
